@@ -1,0 +1,190 @@
+{
+  "JANUARY" : [ {
+    "plumberID" : "2U7ndR3lWYDT",
+    "monthlyEarnings" : 452812,
+    "monthlyMaterialCost" : 247702
+  }, {
+    "plumberID" : "405KlUsORr5L",
+    "monthlyEarnings" : 694004,
+    "monthlyMaterialCost" : 704448
+  }, {
+    "plumberID" : "4MO9TPi8BWyV",
+    "monthlyEarnings" : 183730,
+    "monthlyMaterialCost" : 373573
+  }, {
+    "plumberID" : "Ix0h2VUcDopo",
+    "monthlyEarnings" : 727152,
+    "monthlyMaterialCost" : 27740
+  }, {
+    "plumberID" : "L0wcVAGMdn0F",
+    "monthlyEarnings" : 369678,
+    "monthlyMaterialCost" : 155354
+  }, {
+    "plumberID" : "QPcbsXDRRvqs",
+    "monthlyEarnings" : 640956,
+    "monthlyMaterialCost" : 904709
+  }, {
+    "plumberID" : "SUGGXgfBtyWc",
+    "monthlyEarnings" : 318276,
+    "monthlyMaterialCost" : 766535
+  }, {
+    "plumberID" : "cKuGN585a8KV",
+    "monthlyEarnings" : 511799,
+    "monthlyMaterialCost" : 374902
+  }, {
+    "plumberID" : "hBlkndU83Yjy",
+    "monthlyEarnings" : 387738,
+    "monthlyMaterialCost" : 736224
+  }, {
+    "plumberID" : "jbWgXCzv8FXH",
+    "monthlyEarnings" : 520927,
+    "monthlyMaterialCost" : 939767
+  }, {
+    "plumberID" : "pkoqYbJ0yh6S",
+    "monthlyEarnings" : 35097,
+    "monthlyMaterialCost" : 820548
+  } ],
+  "OCTOBER" : [ {
+    "plumberID" : "dKyGcb6jLGH3",
+    "monthlyEarnings" : 369893,
+    "monthlyMaterialCost" : 689649
+  }, {
+    "plumberID" : "gEOkmO1853R6",
+    "monthlyEarnings" : 653333,
+    "monthlyMaterialCost" : 751073
+  }, {
+    "plumberID" : "xBbkzcaNn0vh",
+    "monthlyEarnings" : 528762,
+    "monthlyMaterialCost" : 414234
+  } ],
+  "APRIL" : [ ],
+  "JUNE" : [ ],
+  "DECEMBER" : [ {
+    "plumberID" : "2U7ndR3lWYDT",
+    "monthlyEarnings" : 1803502,
+    "monthlyMaterialCost" : 311372
+  }, {
+    "plumberID" : "405KlUsORr5L",
+    "monthlyEarnings" : 745904,
+    "monthlyMaterialCost" : 1209647
+  }, {
+    "plumberID" : "4MO9TPi8BWyV",
+    "monthlyEarnings" : 872005,
+    "monthlyMaterialCost" : 268954
+  }, {
+    "plumberID" : "Ix0h2VUcDopo",
+    "monthlyEarnings" : 372678,
+    "monthlyMaterialCost" : 1543060
+  }, {
+    "plumberID" : "L0wcVAGMdn0F",
+    "monthlyEarnings" : 947276,
+    "monthlyMaterialCost" : 1020594
+  }, {
+    "plumberID" : "QPcbsXDRRvqs",
+    "monthlyEarnings" : 1092501,
+    "monthlyMaterialCost" : 665321
+  }, {
+    "plumberID" : "RTZ5SuhZ4hN6",
+    "monthlyEarnings" : 1661772,
+    "monthlyMaterialCost" : 1818135
+  }, {
+    "plumberID" : "SUGGXgfBtyWc",
+    "monthlyEarnings" : 486199,
+    "monthlyMaterialCost" : 917374
+  }, {
+    "plumberID" : "cKuGN585a8KV",
+    "monthlyEarnings" : 1257344,
+    "monthlyMaterialCost" : 1912536
+  }, {
+    "plumberID" : "dKyGcb6jLGH3",
+    "monthlyEarnings" : 604713,
+    "monthlyMaterialCost" : 976791
+  }, {
+    "plumberID" : "gEOkmO1853R6",
+    "monthlyEarnings" : 854938,
+    "monthlyMaterialCost" : 1612181
+  }, {
+    "plumberID" : "hBlkndU83Yjy",
+    "monthlyEarnings" : 61605,
+    "monthlyMaterialCost" : 1162079
+  }, {
+    "plumberID" : "jbWgXCzv8FXH",
+    "monthlyEarnings" : 1819480,
+    "monthlyMaterialCost" : 1813197
+  }, {
+    "plumberID" : "pkoqYbJ0yh6S",
+    "monthlyEarnings" : 979876,
+    "monthlyMaterialCost" : 633824
+  }, {
+    "plumberID" : "xBbkzcaNn0vh",
+    "monthlyEarnings" : 777003,
+    "monthlyMaterialCost" : 893198
+  } ],
+  "FEBRUARY" : [ ],
+  "MAY" : [ ],
+  "AUGUST" : [ ],
+  "MARCH" : [ ],
+  "SEPTEMBER" : [ ],
+  "JULY" : [ ],
+  "NOVEMBER" : [ {
+    "plumberID" : "2U7ndR3lWYDT",
+    "monthlyEarnings" : 1560760,
+    "monthlyMaterialCost" : 517575
+  }, {
+    "plumberID" : "405KlUsORr5L",
+    "monthlyEarnings" : 743873,
+    "monthlyMaterialCost" : 780549
+  }, {
+    "plumberID" : "4MO9TPi8BWyV",
+    "monthlyEarnings" : 448716,
+    "monthlyMaterialCost" : 1479163
+  }, {
+    "plumberID" : "Ix0h2VUcDopo",
+    "monthlyEarnings" : 891847,
+    "monthlyMaterialCost" : 369018
+  }, {
+    "plumberID" : "L0wcVAGMdn0F",
+    "monthlyEarnings" : 1174756,
+    "monthlyMaterialCost" : 1031034
+  }, {
+    "plumberID" : "QPcbsXDRRvqs",
+    "monthlyEarnings" : 1322189,
+    "monthlyMaterialCost" : 1042425
+  }, {
+    "plumberID" : "RTZ5SuhZ4hN6",
+    "monthlyEarnings" : 1735622,
+    "monthlyMaterialCost" : 1221450
+  }, {
+    "plumberID" : "SUGGXgfBtyWc",
+    "monthlyEarnings" : 569830,
+    "monthlyMaterialCost" : 895475
+  }, {
+    "plumberID" : "cKuGN585a8KV",
+    "monthlyEarnings" : 1190012,
+    "monthlyMaterialCost" : 626980
+  }, {
+    "plumberID" : "dKyGcb6jLGH3",
+    "monthlyEarnings" : 1132316,
+    "monthlyMaterialCost" : 1262414
+  }, {
+    "plumberID" : "gEOkmO1853R6",
+    "monthlyEarnings" : 749526,
+    "monthlyMaterialCost" : 717619
+  }, {
+    "plumberID" : "hBlkndU83Yjy",
+    "monthlyEarnings" : 1202614,
+    "monthlyMaterialCost" : 1599185
+  }, {
+    "plumberID" : "jbWgXCzv8FXH",
+    "monthlyEarnings" : 1144692,
+    "monthlyMaterialCost" : 895361
+  }, {
+    "plumberID" : "pkoqYbJ0yh6S",
+    "monthlyEarnings" : 1031085,
+    "monthlyMaterialCost" : 1823102
+  }, {
+    "plumberID" : "xBbkzcaNn0vh",
+    "monthlyEarnings" : 1970028,
+    "monthlyMaterialCost" : 1713990
+  } ]
+}

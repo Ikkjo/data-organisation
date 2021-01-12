@@ -1,0 +1,3 @@
+C:\Users\Ilija\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\_645_deo2.dir/objects.a
+C:\Programming\MinGW\bin\ar.exe cr CMakeFiles\_645_deo2.dir/objects.a @CMakeFiles\_645_deo2.dir\objects1.rsp
+C:\Programming\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\_645_deo2.dir/objects.a -Wl,--no-whole-archive  -o _645_deo2.exe -Wl,--out-implib,lib_645_deo2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\_645_deo2.dir\linklibs.rsp
