@@ -16,13 +16,15 @@ typedef struct DateTime {
     int minuti;
 } DATETIME;
 
-//Svaki slog predstavlja jedan dolazak.
+//Svaki slog predstavlja jedno pakovanje keksa.
 
 typedef struct cp{
     char ID[12+1]; //Koristi se kao kljuc
     char name[40+1];
-    DATETIME packagingDT;
+    DATETIME useByDT;
     int netWeight;
+    int deleted;
+
 }CookiePackage;
 
 typedef struct Blok {
