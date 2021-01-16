@@ -6,7 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Ilija/Git Repos/GitHub/op-course-proj/#645_deo2/main.c
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo2/definitions.h
+
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo2/file_handling.c
+file_handling.h
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo2/file_handling.h
+
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo2/file_handling.h
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+sys/types.h
+-
+definitions.h
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo2/definitions.h
+
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo2/main.c
+stdio.h
+-
+stddef.h
+-
+file_handling.c
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo2/file_handling.c
 

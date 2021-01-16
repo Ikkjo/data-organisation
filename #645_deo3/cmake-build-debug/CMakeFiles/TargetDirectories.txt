@@ -1,0 +1,3 @@
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/cmake-build-debug/CMakeFiles/rasuta.dir
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

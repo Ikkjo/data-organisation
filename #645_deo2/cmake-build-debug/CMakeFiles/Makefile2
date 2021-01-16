@@ -63,10 +63,10 @@ RM = C:\Users\Ilija\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Ilija\Git Repos\GitHub\op-course-proj\#645_deo2"
+CMAKE_SOURCE_DIR = "C:\Users\Ilija\Git Repos\GitHub\data-organisation\#645_deo2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Ilija\Git Repos\GitHub\op-course-proj\#645_deo2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Ilija\Git Repos\GitHub\data-organisation\#645_deo2\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/_645_deo2.dir/clean
 CMakeFiles/_645_deo2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\_645_deo2.dir\build.make CMakeFiles/_645_deo2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\_645_deo2.dir\build.make CMakeFiles/_645_deo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Ilija\Git Repos\GitHub\op-course-proj\#645_deo2\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target _645_deo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Ilija\Git Repos\GitHub\data-organisation\#645_deo2\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target _645_deo2"
 .PHONY : CMakeFiles/_645_deo2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_645_deo2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ilija\Git Repos\GitHub\op-course-proj\#645_deo2\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ilija\Git Repos\GitHub\data-organisation\#645_deo2\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/_645_deo2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ilija\Git Repos\GitHub\op-course-proj\#645_deo2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ilija\Git Repos\GitHub\data-organisation\#645_deo2\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/_645_deo2.dir/rule
 
 # Convenience name for target.

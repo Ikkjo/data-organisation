@@ -168,7 +168,7 @@ void ispisiSveAktuelne(FILE* fajl) {
     fseek(fajl, 0, SEEK_SET);
     BLOK blok;
     int rbBloka = 0;
-    printf("BL SL ID           Name                                       Rok trajanja     Net Weight\n");
+    printf("BL SL ID           Name                                       Datum proiz.     Rok Net Weight\n");
     while (fread(&blok, sizeof(BLOK), 1, fajl)) {
 
         for (int i = 0; i < FBLOKIRANJA; i++) {

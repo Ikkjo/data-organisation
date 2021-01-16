@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/bucket.c
+bucket.h
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/bucket.h
+stdio.h
+-
+
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/bucket.h
+
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/hash_file.c
+hash_file.h
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/hash_file.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/hash_file.h
+stdio.h
+-
+bucket.c
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/bucket.c
+
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/main.c
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+bucket.h
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/bucket.h
+hash_file.c
+C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo3/hash_file.c
+

@@ -1,0 +1,3 @@
+C:\Users\Ilija\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\rasuta.dir/objects.a
+C:\Programming\MinGW\bin\ar.exe cr CMakeFiles\rasuta.dir/objects.a @CMakeFiles\rasuta.dir\objects1.rsp
+C:\Programming\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\rasuta.dir/objects.a -Wl,--no-whole-archive  -o rasuta.exe -Wl,--out-implib,librasuta.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rasuta.dir\linklibs.rsp

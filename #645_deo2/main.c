@@ -10,7 +10,6 @@ void display_chosen_file(char*);
 void new_file();
 void find_syllable(FILE*);
 void new_syllable(FILE*);
-void show_all_active_and_valid();
 
 int main() {
     int user_choice = -1;

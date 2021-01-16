@@ -1,4 +1,4 @@
-C:\Users\Ilija\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Ilija\Git Repos\GitHub\op-course-proj\#645_deo2"
+C:\Users\Ilija\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Ilija\Git Repos\GitHub\data-organisation\#645_deo2"
 -- The C compiler identification is GNU 9.2.0
 -- Check for working C compiler: C:/Programming/MinGW/bin/gcc.exe
 -- Check for working C compiler: C:/Programming/MinGW/bin/gcc.exe - works
@@ -8,4 +8,4 @@ C:\Users\Ilija\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Ilija/Git Repos/GitHub/op-course-proj/#645_deo2/cmake-build-debug
+-- Build files have been written to: C:/Users/Ilija/Git Repos/GitHub/data-organisation/#645_deo2/cmake-build-debug
