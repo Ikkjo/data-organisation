@@ -17,12 +17,14 @@ public class reportByMonth {
     public static Map<Month, List<PlumberReport>> getReportForAllMonths(List<PlumbingJob> serviceData) {
         List<PlumberReport> reportForSingleMnth = new ArrayList<PlumberReport>();
         Map<Month, List<PlumberReport>> allReports = new HashMap<Month, List<PlumberReport>>();
+
         for (int i = 1; i <= 12; i++) {
             List<PlumberReport> report = new ArrayList<PlumberReport>();
             allReports.put(Month.of(i), report);
         }
 
         for (PlumbingJob job : serviceData) {
+
             boolean added = false;
             Month jobMonth = LocalDateTime.parse(job.getServiceDateTime(), DateTimeFormatter.ISO_LOCAL_DATE_TIME).getMonth();
             List<PlumberReport> reportsForCurrentMonth = allReports.get(jobMonth);
@@ -30,6 +32,8 @@ public class reportByMonth {
                 if (rep.getPlumberID().equals(job.getPlumberID())) {
                     rep.addMonthlyMaterialCost(job.getMaterialCost());
                     rep.addMonthlyEarnings(job.getServicePrice());
+                    rep.setMaterialCostMax(job.getMaterialCost());
+                    rep.setMaterialCostMin(job.getMaterialCost());
                     added = true;
                     break;
                 }
@@ -40,10 +44,8 @@ public class reportByMonth {
                                                          job.getServicePrice(),
                                                          job.getMaterialCost());
                 allReports.get(jobMonth).add(report);
-
             }
         }
-
 
         List<Month> allMonths = new ArrayList<Month>(allReports.keySet());
 

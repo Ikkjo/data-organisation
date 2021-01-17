@@ -110,7 +110,6 @@ void get_option_from_user(int* userChoice){
     printf(">>");
     scanf("%d", userChoice);
 
-    return;
 }
 
 void chose_file(char* file_name) {
@@ -118,13 +117,11 @@ void chose_file(char* file_name) {
 
     scanf("%s", file_name);
 
-    return;
 }
 
 void display_chosen_file(char* file_name) {
     printf(file_name);
 
-    return;
 }
 
 void new_file() {
@@ -135,7 +132,6 @@ void new_file() {
     scanf("%s", new_file);
 
     kreirajDatoteku(new_file);
-    printf("\nNova datoteka je uspesno kreirana!\n");
 
 }
 
@@ -165,13 +161,16 @@ void new_syllable(FILE* file) {
     printf("Unesi ime sloga:\n>>");
     scanf("%s", new_cp.name);
 
-    printf("Rok trajanja (format: dd-mm-YYYY HH:mm)\n>>");
+    printf("Datum proizvodnje (format: dd-mm-YYYY HH:mm)\n>>");
     scanf("%d-%d-%d %d:%d",
-          &new_cp.useByDT.dan,
-          &new_cp.useByDT.mesec,
-          &new_cp.useByDT.godina,
-          &new_cp.useByDT.sati,
-          &new_cp.useByDT.minuti);
+          &new_cp.productionDT.dan,
+          &new_cp.productionDT.mesec,
+          &new_cp.productionDT.godina,
+          &new_cp.productionDT.sati,
+          &new_cp.productionDT.minuti);
+
+    printf("Rok trajanja:\n>>");
+    scanf("%d", &new_cp.rok);
 
     printf("Unesi neto kolicinu:\n>>");
     scanf("%d", &new_cp.netWeight);

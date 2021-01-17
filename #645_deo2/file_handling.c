@@ -126,7 +126,7 @@ void ispisiSveSlogove(FILE *fajl) {
 	fseek(fajl, 0, SEEK_SET);
 	BLOK blok;
 	int rbBloka = 0;
-	printf("BL SL ID           Name                                       Rok trajanja     Net Weight\n");
+	printf("BL SL ID            Name                                      Datum proiz.      Rok   Net Weight\n");
 	while (fread(&blok, sizeof(BLOK), 1, fajl)) {
 
 		for (int i = 0; i < FBLOKIRANJA; i++) {
@@ -148,15 +148,16 @@ void ispisiSveSlogove(FILE *fajl) {
 }
 
 void ispisiSlog(CookiePackage *slog) {
-	printf("%12s  %40s  %02d-%02d-%4d %02d:%02d %5d ",
-        slog->ID,
-		slog->name,
-		slog->useByDT.dan,
-		slog->useByDT.mesec,
-		slog->useByDT.godina,
-		slog->useByDT.sati,
-		slog->useByDT.minuti,
-		slog->netWeight);
+    printf("%12s  %-40s  %02d-%02d-%4d %02d:%02d  %-5d %-5d \n",
+           slog->ID,
+           slog->name,
+           slog->productionDT.dan,
+           slog->productionDT.mesec,
+           slog->productionDT.godina,
+           slog->productionDT.sati,
+           slog->productionDT.minuti,
+           slog->rok,
+           slog->netWeight);
 }
 
 void ispisiSveAktuelne(FILE* fajl) {
@@ -168,7 +169,7 @@ void ispisiSveAktuelne(FILE* fajl) {
     fseek(fajl, 0, SEEK_SET);
     BLOK blok;
     int rbBloka = 0;
-    printf("BL SL ID           Name                                       Datum proiz.     Rok Net Weight\n");
+    printf("BL SL ID            Name                                      Datum proiz.      Rok   Net Weight\n");
     while (fread(&blok, sizeof(BLOK), 1, fajl)) {
 
         for (int i = 0; i < FBLOKIRANJA; i++) {
@@ -179,7 +180,7 @@ void ispisiSveAktuelne(FILE* fajl) {
 
 
             if (!blok.slogovi[i].deleted) {
-                if(blok.slogovi[i].netWeight <= 10000 && blok.slogovi[i].useByDT.godina == 2021){
+                if(blok.slogovi[i].netWeight <= 10000 && blok.slogovi[i].productionDT.godina == 2021){
 
                     printf("B%d S%d ", rbBloka, i);
                     ispisiSlog(&blok.slogovi[i]);

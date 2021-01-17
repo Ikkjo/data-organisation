@@ -21,7 +21,8 @@ typedef struct DateTime {
 typedef struct cp{
     char ID[12+1]; //Koristi se kao kljuc
     char name[40+1];
-    DATETIME useByDT;
+    DATETIME productionDT;
+    int rok;
     int netWeight;
     int deleted;
 
